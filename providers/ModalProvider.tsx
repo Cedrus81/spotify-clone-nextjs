@@ -1,5 +1,6 @@
 'use client'
 
+import AuthModal from "@/components/AuthModal"
 import Modal from "@/components/Modal"
 import { useEffect, useState } from "react"
 
@@ -13,7 +14,7 @@ function ModalProvider() {
     if(!isMounted) return null
 
   return (
-    <Modal />
+    <AuthModal />
   )
 }
 
